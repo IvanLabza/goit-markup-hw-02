@@ -13,12 +13,26 @@ font-weight: 800;
 font-size: 18px;
 line-height: 24px;
 
+/* identical to box height, or 133% */
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
 /* IRIS */
 
 color: #4D5AE5;
 
 }
 .logo-second {
+/* Studio */
+
+width: 71px;
+height: 24px;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
 }
 .head-navigation {
 }
