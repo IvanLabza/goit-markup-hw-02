@@ -58,23 +58,10 @@ color: #2E2F42;
 .contacts {
 }
 .contacts-mail {
-/* info@devstudio.com */
-
-font-family: 'Roboto';
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
-
-letter-spacing: 0.02em;
-
-/* SLATE */
-
-color: #434455;
 }
 .contacts-mail-link {
 /* +11 (000) 111-11-11 */
-
+text-decoration: none;
 font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
@@ -91,6 +78,19 @@ color: #434455;
 .contacts-tel {
 }
 .contacts-tel-link {
+/* +11 (000) 111-11-11 */
+text-decoration: none;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
 }
 .hero {
 }
