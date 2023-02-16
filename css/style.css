@@ -1,3 +1,11 @@
+*ul,ol,li{
+text-decoration: none;
+}
+
+*a{
+text-decoration: none;
+}
+
 
 .head {
 }
@@ -138,6 +146,7 @@ color: #FFFFFF;
 .about-header {
 }
 .about-list {
+text-decoration: none;
 }
 
 .about-list-header{
