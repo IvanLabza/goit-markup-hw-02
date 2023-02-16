@@ -2,6 +2,21 @@
 .head {
 }
 .logo {
+/* Web */
+
+
+width: 44px;
+height: 24px;
+
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 24px;
+
+/* IRIS */
+
+color: #4D5AE5;
+
 }
 .logo-second {
 }
