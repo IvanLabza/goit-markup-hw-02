@@ -38,22 +38,23 @@ color: #2E2F42;
 
 }
 .head-navigation {
-text-decoration: none;
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-/* identical to box height, or 150% */
 
-letter-spacing: 0.02em;
-
-/* NAVY BLUE */
-
-color: #2E2F42;
 
 }
 .head-navigation-list-link {
-}
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+        
+    letter-spacing: 0.02em;
+        
+     /* NAVY BLUE */
+        
+    color: #2E2F42;
+    }
 .contacts {
 }
 .contacts-mail {
