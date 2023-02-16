@@ -139,7 +139,42 @@ color: #FFFFFF;
 }
 .about-list {
 }
+
+.about-list-header{
+/* Strategy */
+
+
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
+}
 .about-list-text {
+/* Our goal is to identify the business problem to walk away with the perfect and creative solution. */
+
+
+
+/* Body */
+
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+
 }
 .product {
 }
