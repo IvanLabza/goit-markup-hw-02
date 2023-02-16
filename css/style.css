@@ -93,8 +93,33 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .hero {
+/* Dark-bg */
+
+
+position: absolute;
+width: 1440px;
+height: 600px;
+left: 0px;
+top: 72px;
+
+/* NAVY BLUE */
+
+background: #2E2F42;
 }
 .hero-header {
+
+/* Header 1 */
+
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 56px;
+line-height: 60px;
+/* or 107% */
+
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
 }
 .hero-btn {
 }
