@@ -1,11 +1,5 @@
-*ul,ol,li{
-text-decoration: none;
-}
-
-*a{
-text-decoration: none;
-}
-
+ul li{list-style: none;}
+a:hover{text-decoration: none;}
 
 .head {
 }
