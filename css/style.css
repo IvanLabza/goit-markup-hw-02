@@ -228,13 +228,66 @@ color: #2E2F42;
 .teamcart-content-img {
 }
 .teamcart-content-subtitle {
+/* Header 3 */
+
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
+
+letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+
+color: #2E2F42;
+
 }
 .teamcart-content-text{
+
+/* Body */
+
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+letter-spacing: 0.02em;
+
+/* SLATE */
+
+color: #434455;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 
 .ftr {
+/* NAVY BLUE */
+
+background: #2E2F42;
 }
 .ftr-text {
+/* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
+
+/* Body */
+
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+letter-spacing: 0.02em;
+
+/* CORNFLOWER */
+
+color: #E7E9FC;
 }
 
 .main-nav {
