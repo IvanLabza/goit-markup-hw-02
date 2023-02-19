@@ -247,13 +247,15 @@ letter-spacing: 0.02em;
 
 color: #E7E9FC;
 }
+.ftr span{
+color: #F4F4FD;
+}
 
 .main-nav {
 }
 .main-nav-elment {
 }
 .main-nav-elment-btn {
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 24px;
@@ -293,6 +295,18 @@ overflow: hidden;
 .content-img {
 }
 .content-subtitle {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
 }
 .content-text {
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
 }
