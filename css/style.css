@@ -2,6 +2,18 @@ ul li{list-style: none;}
 a{text-decoration: none;}
 button{cursor: pointer;}
 
+:root{
+--iris:#4D5AE5;
+--ocean:#404BBF;
+--navi-blue:#2E2F42;
+--green:#31D0AA;
+--slate:#434455;
+--ligth-slate:#8E8F99;
+--CORNFLOWER: #E7E9FC;
+--cloude:#F4F4FD;
+--write-title:#FFFFFF;
+}
+
 .head {
 }
 .logo {
@@ -11,10 +23,10 @@ font-size: 18px;
 line-height: 24px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #4D5AE5;
+color:var(--iris);
 }
 .logo-second {
-color: #2E2F42;
+color: var(--navi-blue);
 
 }
 .head-navigation {
@@ -25,7 +37,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--navi-blue);
 }
 .contacts {
 }
@@ -39,7 +51,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: #434455;
+color:var(--slate);
 }
 .contacts-tel {
 }
@@ -48,13 +60,13 @@ font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-color: #434455;
+color:var(--slate);
 }
 .hero {
 
 /* NAVY BLUE */
 
-background: #2E2F42;
+background: var(--navi-blue);
 }
 .hero-header {
 
@@ -69,12 +81,12 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.02em;
 
-color: #FFFFFF;
+color:var(--write-title);
 }
 .hero-btn {
 /* IRIS */
 
-background: #4D5AE5;
+background: var(--iris);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
@@ -88,7 +100,7 @@ font-size: 16px;
 line-height: 24px;
 /* identical to box height, or 150% */
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--write-title);
 
 }
 .about {
@@ -122,7 +134,7 @@ letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--navi-blue);
 
 }
 .about-list-text {
@@ -142,7 +154,7 @@ letter-spacing: 0.02em;
 
 /* SLATE */
 
-color: #434455;
+color:var(--slate);
 
 }
 .product {
@@ -163,14 +175,14 @@ text-transform: capitalize;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--navi-blue);
 }
 .product-content-img {
 }
 .teamcart {
 /* CLOUD */
 
-background: #F4F4FD;
+background:var(--cloude);
 }
 .teamcart-header {
 /* Our Team */
@@ -187,7 +199,7 @@ text-transform: capitalize;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--navi-blue);
 }
 .teamcart-content {
 }
@@ -206,7 +218,7 @@ letter-spacing: 0.02em;
 
 /* NAVY BLUE */
 
-color: #2E2F42;
+color: var(--navi-blue);
 
 }
 .teamcart-content-text{
@@ -223,12 +235,12 @@ letter-spacing: 0.02em;
 
 /* SLATE */
 
-color: #434455;
+color: var(--slate);
 
 }
 
 .ftr {
-background-color: #2E2F42;
+background-color: var(--navi-blue);
 }
 .ftr-text {
 /* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
@@ -248,7 +260,7 @@ letter-spacing: 0.02em;
 color: #E7E9FC;
 }
 .ftr span{
-color: #F4F4FD;
+color: var(--cloude);
 }
 
 .main-nav {
@@ -257,20 +269,20 @@ color: #F4F4FD;
 }
 .main-nav-elment-btn {
 font-weight: 500;
-font-size: 16px;
+
 line-height: 24px;
-color: #4D5AE5;
+color: var(--iris);
 }
 
 .main-nav-elment-btn:hover{
-color: #FFFFFF;
-background-color: #404BBF;
+color: var(--write-title);
+background-color:var(--ocean);
 
 }
 
 .main-nav-elment-btn:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--write-title);
+    background-color:var(--ocean);
     
     }
 .content {
@@ -300,7 +312,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--navi-blue);
 }
 .content-text {
 font-family: 'Roboto';
@@ -308,5 +320,5 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
-color: #434455;
+color:var(--slate);
 }
