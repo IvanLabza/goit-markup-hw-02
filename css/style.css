@@ -253,12 +253,40 @@ color: #E7E9FC;
 .main-nav-elment {
 }
 .main-nav-elment-btn {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #4D5AE5;
 }
+
+.main-nav-elment-btn:hover{
+color: #FFFFFF;
+background-color: #404BBF;
+
+}
+
+.main-nav-elment-btn:focus{
+    color: #FFFFFF;
+    background-color: #404BBF;
+    
+    }
 .content {
 }
 .content-title {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;  
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 .content-list {
+
 }
 .content-list-element {
 }
