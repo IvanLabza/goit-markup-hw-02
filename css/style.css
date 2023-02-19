@@ -110,10 +110,10 @@ border-radius: 4px;
 }
 
 .hero-btn:hover{
-    background: #404BBF;
+    background:var(--ocean);
 }
 .hero-btn:focus{
-    background: #404BBF;
+    background:var(--ocean);
 }
 
 
