@@ -2,6 +2,8 @@ ul li{list-style: none;}
 a{text-decoration: none;}
 button{cursor: pointer;}
 /*--------------GLOBAL STILE----------------*/
+
+
 :root{
 --iris:#4D5AE5;
 --ocean:#404BBF;
@@ -62,7 +64,6 @@ color: var(--ocean);
 .contacts-mail {
 }
 .contacts-mail-link {
-/* +11 (000) 111-11-11 */
 color:var(--slate);
 }
 
@@ -86,17 +87,14 @@ color: var(--ocean);
 background: var(--navi-blue);
 }
 .hero-header {
-/* Header 1 */
 font-weight: 700;
 font-size: 56px;
 line-height: 1.1;
-/* or 107% */
 text-align: center;
 letter-spacing: 0.02em;
 color:var(--write-title);
 }
 .hero-btn {
-/* IRIS */
 background: var(--iris);
 border-radius: 4px;
 }
@@ -107,8 +105,6 @@ border-radius: 4px;
 .hero-btn:focus{
     background:var(--ocean);
 }
-
-
 
 .hero-btn-text {
 font-weight: 500;
@@ -249,7 +245,6 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 .content-list {
-
 }
 .content-list-element {
 }
