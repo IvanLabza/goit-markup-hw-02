@@ -17,11 +17,14 @@ button{cursor: pointer;}
 }
 
 body{
-font-family: 'Roboto';
+font-family: 'Roboto' sans-serif;
 color: var(--navi-blue);
+background-color:var(--write-title);
 }
 
 .link{
+font-family: 'Roboto' sans-serif;
+font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -38,11 +41,14 @@ line-height: 1.3;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--iris);
+
 }
 
 .logo-second {
     color: var(--navi-blue);
+   
 }
+
 .head-navigation {
 }
 
@@ -96,7 +102,6 @@ color:var(--write-title);
 }
 .hero-btn {
 background: var(--iris);
-border-radius: 4px;
 }
 
 .hero-btn:hover{
@@ -107,6 +112,7 @@ border-radius: 4px;
 }
 
 .hero-btn-text {
+font-family:'Roboto' sans-serif ;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
@@ -219,6 +225,8 @@ color: var(--cloude);
 .main-nav-elment {
 }
 .main-nav-elment-btn {
+font-family:'Roboto' sans-serif ;
+background-color:var(--cloude);
 font-weight: 500;
 line-height: 1.5;
 color: var(--iris);
