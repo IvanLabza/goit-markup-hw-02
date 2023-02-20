@@ -232,7 +232,7 @@ line-height: 1.5;
 color: var(--iris);
 }
 
-.main-nav-elment-btn:hover, :focus{
+.main-nav-elment-btn:hover, .main-nav-elment-btn:focus{
 color: var(--write-title);
 background-color:var(--ocean);
 
