@@ -9,7 +9,7 @@ button{cursor: pointer;}
 --green:#31D0AA;
 --slate:#434455;
 --ligth-slate:#8E8F99;
---CORNFLOWER: #E7E9FC;
+--cornflower: #E7E9FC;
 --cloude:#F4F4FD;
 --write-title:#FFFFFF;
 }
@@ -49,13 +49,9 @@ color: var(--navi-blue);
 
 }
 
-.head-navigation-list-link:hover{
+.head-navigation-list-link:hover, :focus, :active{
 color: var(--ocean);
 }
-
-.head-navigation-list-link:focus{
-    color: var(--ocean);
-    }
 
 .contacts {
 }
@@ -67,27 +63,20 @@ color: var(--ocean);
 color:var(--slate);
 }
 
-.contacts-mail-link:hover {
+.contacts-mail-link:hover,:focus {
 color: var(--ocean);
 }
-    
-.contacts-mail-link:focus {
-  color: var(--ocean);
-}
-    
+     
 .contacts-tel {
 }
 .contacts-tel-link {
 color:var(--slate);
 }
 
-.contacts-tel-link:hover {
+.contacts-tel-link:hover,:focus {
 color: var(--ocean);
 }
 
-.contacts-tel-link:focus {
- color: var(--ocean);
-}
 
 
 .hero {
