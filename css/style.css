@@ -1,7 +1,7 @@
 ul li{list-style: none;}
 a{text-decoration: none;}
 button{cursor: pointer;}
-/*--------GLOBAL STILE----------*/
+/*--------------GLOBAL STILE----------------*/
 :root{
 --iris:#4D5AE5;
 --ocean:#404BBF;
@@ -24,7 +24,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
-/*------------HEDER------------*/
+/*-----------------HEDER-----------------*/
 
 .head {
 }
@@ -80,7 +80,7 @@ color:var(--slate);
 color: var(--ocean);
 }
 
-/*-----------HERO-----------*/
+/*------------------HERO-------------------*/
 
 .hero {
 background: var(--navi-blue);
@@ -111,17 +111,14 @@ border-radius: 4px;
 
 
 .hero-btn-text {
-/* Order Service */
-/* Button Text */
 font-weight: 500;
 line-height: 1.5;
-/* identical to box height, or 150% */
 letter-spacing: 0.04em;
 color: var(--write-title);
 
 }
 
-/*---------ABOUT---------*/
+/*-----------------ABOUT------------------*/
 
 .about {
 }
@@ -142,21 +139,15 @@ text-decoration: none;
 }
 
 .about-list-header{
-/* Strategy */
 font-weight: 500;
 font-size: 20px;
 line-height:1.2;
-/* identical to box height, or 120% */
 letter-spacing: 0.02em;
 }
 .about-list-text {
-/* Our goal is to identify the business problem to walk away with the perfect and creative solution. */
-/* Body */
 font-size: 16px;
 line-height: 1.5;
-/* or 150% */
 letter-spacing: 0.02em;
-/* SLATE */
 color:var(--slate);
 
 }
@@ -166,11 +157,9 @@ color:var(--slate);
 .product {
 }
 .product-header {
-/* What are we doing */
 font-weight: 700;
 font-size: 36px;
 line-height:1.1;
-/* identical to box height, or 111% */
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -181,17 +170,14 @@ text-transform: capitalize;
 /*---------------TEAMCART----------------*/
 
 .teamcart {
-/* CLOUD */
+
 
 background:var(--cloude);
 }
 .teamcart-header {
-/* Our Team */
 font-weight: 700;
 font-size: 36px;
 line-height: 1.1;
-/* identical to box height, or 111% */
-
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -201,20 +187,15 @@ text-transform: capitalize;
 .teamcart-content-img {
 }
 .teamcart-content-subtitle {
-/* Header 3 */
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
-/* identical to box height, or 120% */
 letter-spacing: 0.02em;
 }
 .teamcart-content-text{
-/* Body */
 font-size: 16px;
 line-height: 1.5;
-/* identical to box height, or 150% */
 letter-spacing: 0.02em;
-/* SLATE */
 color: var(--slate);
 
 }
@@ -225,17 +206,13 @@ color: var(--slate);
 background-color: var(--navi-blue);
 }
 .ftr-text {
-/* Increase the flow of customers and sales for your business with digital marketing & growth solutions. */
-/* Body */
 font-size: 16px;
 line-height: 1.5;
-/* or 150% */
-
 letter-spacing: 0.02em;
 
 /* CORNFLOWER */
 
-color: #E7E9FC;
+color:var(--cornflower);
 }
 .ftr span{
 color: var(--cloude);
