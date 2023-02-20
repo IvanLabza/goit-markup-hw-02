@@ -60,7 +60,7 @@ color: var(--navi-blue);
 
 }
 
-.head-navigation-list-link:hover, :focus, :active{
+.head-navigation-list-link:hover,.head-navigation-list-link:focus,.head-navigation-list-link:active{
 color: var(--ocean);
 }
 
