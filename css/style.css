@@ -29,6 +29,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
 /*-----------------HEDER-----------------*/
 
 .head {
@@ -104,12 +105,10 @@ color:var(--write-title);
 background: var(--iris);
 }
 
-.hero-btn:hover{
+.hero-btn:hover,.hero-btn:focus{
     background:var(--ocean);
 }
-.hero-btn:focus{
-    background:var(--ocean);
-}
+
 
 .hero-btn-text {
 font-family:'Roboto' sans-serif ;
